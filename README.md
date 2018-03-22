@@ -2,23 +2,28 @@
 A pirate island map generator written by Ruben Rodrigues.
 
 
-# Install
+# Install (Windows)
+
+Create a virtualenv and cd into it.
 ```
 virtualenv map
 
 cd map
 ```
 
-Copy the files from github to this folder.
+Copy the files from github to this folder, and obtain the dependencies:
 
 ```
 pip install -r requirements.txt
+
+Scripts\activate
 
 python mapMaker.py
 ```
 
 # Usage
 
+```
 usage: mapMaker.py [-h] [--out OUT] [--size SIZE] [--bw NOISE]
 
 A pirate island map generator written by Ruben Rodrigues.
@@ -30,3 +35,4 @@ optional arguments:
   --bw NOISE   if the script should save a black and white copy of the terrain
                to better see the noise. saves it to the directory of the
                script (default: "false")
+```
