@@ -4,6 +4,8 @@ A pirate island map generator written by Ruben Rodrigues.
 
 # Install (Windows)
 
+You need Python 3 and virtualenv to run MapMaker.
+
 Create a virtualenv and cd into it.
 ```
 virtualenv map
