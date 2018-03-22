@@ -1,0 +1,7 @@
+colour==0.1.5
+opensimplex==0.2
+Pillow==5.0.0
+pyparsing==2.2.0
+python-dateutil==2.7.0
+pytz==2018.3
+pywavelets==0.5.2
