@@ -3,12 +3,19 @@ A pirate island map generator written by Ruben Rodrigues.
 
 
 # Install
-
+```
 virtualenv map
+
 cd map
+```
+
 Copy the files from github to this folder.
+
+```
 pip install -r requirements.txt
+
 python mapMaker.py
+```
 
 # Usage
 
